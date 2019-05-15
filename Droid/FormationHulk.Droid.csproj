@@ -74,6 +74,7 @@
     <Compile Include="ViewServices\DialogService.cs" />
     <Compile Include="FormationHulkApplication.cs" />
     <Compile Include="Activities\BaseActivity.cs" />
+    <Compile Include="Activities\UserStoriesActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -101,6 +102,7 @@
     <AndroidResource Include="Resources\drawable-xhdpi\backgroundcafe.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\backgroundcafe.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\backgroundcafe.png" />
+    <AndroidResource Include="Resources\layout\UserStories.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="IOC\" />

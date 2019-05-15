@@ -66,6 +66,9 @@ namespace FormationHulk.Droid
 			// aapt resource value: 0x7f060000
 			public const int cafebackground = 2131099648;
 			
+			// aapt resource value: 0x7f060001
+			public const int startButton = 2131099649;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -81,6 +84,9 @@ namespace FormationHulk.Droid
 			
 			// aapt resource value: 0x7f040000
 			public const int Main = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int UserStories = 2130968577;
 			
 			static Layout()
 			{
