@@ -36,6 +36,7 @@
     <Compile Include="Resources\Strings.Designer.cs">
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\UserStoriesViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Toolkit">

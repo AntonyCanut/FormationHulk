@@ -15,6 +15,7 @@ namespace FormationHulk.IOC
             simpleIoc.Register<IErrorHandler, ErrorHandler>();
 
             simpleIoc.Register<MainViewModel>();
+            simpleIoc.Register<UserStoriesViewModel>();
         }
     }
 }
