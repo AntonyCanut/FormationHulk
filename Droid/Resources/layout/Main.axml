@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <GridLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="5"
+                android:background="@android:color/transparent">
+        <ImageView android:src="@drawable/backgroundcafe"
+                   android:id="@+id/cafebackground"
+                   android:layout_row="0"
+                   android:layout_gravity="top"
+                   android:foregroundGravity="top"
+                   android:adjustViewBounds="true"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+        <GridLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:background="@android:color/holo_blue_dark" />
+    </GridLayout>
+</GridLayout>
